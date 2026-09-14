@@ -5,7 +5,7 @@ import {AnimatePresence,motion,useScroll,useTransform} from 'framer-motion';
 import {CalendarDays,ChevronDown,ChevronLeft,ChevronRight,Gift,Heart,MapPin,Menu,Music2,Pause,Play,Send,Share2,Sparkles,X} from 'lucide-react';
 import {Button} from '../components/ui/button'; import {Card} from '../components/ui/card';
 
-const WEDDING_DATE=new Date('2024-12-09T10:00:00+05:30');
+const WEDDING_DATE=new Date('2026-12-09T10:00:00+05:30');
 const events=[['DEC 09','Juroon','10:00 AM – 11:00 AM','The Greenwood, Tezpur'],['DEC 09','Her Reception','4:00 PM – 8:00 PM','Her Place'],['DEC 09','Borjatri','Reach by 10:00 PM','His Place → Her Place'],['DEC 09','Bidhi Path','8:00 PM – 10:00 PM','Her Place'],['DEC 09','Hoom','Before 11:00 PM','His Place'],['DEC 09','Returning to Hotel','By 12:00 AM','Hotel'],['DEC 11','His Reception','1:00 PM – 8:00 PM','His Place']];
 const story=[['The Beginning','Two lives, two families, one beautiful story beginning.'],['A Little Closer','Somewhere between ordinary days, everything started to feel extraordinary.'],['The Promise','With love, laughter and family beside us, we chose forever.'],['The Celebration','Now we invite you to be part of the moments that make our forever.']];
 
