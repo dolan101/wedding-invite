@@ -1,4 +1,5 @@
 @import 'tailwindcss';
+.paper-bg>section:first-of-type .max-w-md>p.text-2xl{font-size:0}.paper-bg>section:first-of-type .max-w-md>p.text-2xl::after{content:"09 December 2026";font-size:1.5rem}
 :root{--ivory:#fbf5e8;--champagne:#c9a35b;--gold:#a87825;--blush:#e8b9ad;--wine:#7d2525;--ink:#33261f}
 *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:#201713;color:var(--ink);font-family:Georgia,'Times New Roman',serif} button,input,textarea{font:inherit}.glass{background:rgba(255,250,239,.68);backdrop-filter:blur(14px);border:1px solid rgba(201,163,91,.28);box-shadow:0 20px 60px rgba(73,42,20,.14)}
 .paper-bg h1{font-family:"Brush Script MT","Segoe Script","Lucida Handwriting",cursive;font-size:0;font-weight:400;line-height:.9;letter-spacing:0;text-shadow:0 2px 0 rgba(255,250,239,.35)}.paper-bg h1::before{content:"Kanchan";font-size:clamp(3.5rem,9vw,6.5rem);color:var(--wine)}.paper-bg h1::after{content:"  Dolan";font-size:clamp(3.5rem,9vw,6.5rem);color:var(--wine)}.paper-bg h1 span,.paper-bg h1 br{display:none}
