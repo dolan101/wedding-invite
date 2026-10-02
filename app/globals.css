@@ -1,4 +1,5 @@
 @import 'tailwindcss';
+.paper-bg h1::before,.paper-bg h1::after{font-size:clamp(1.5rem,7vw,4.5rem)!important}
 #attractions{order:1}section:has(> #attractions){display:flex;flex-direction:column}section:has(> #attractions)>div:first-child{order:2}section:has(> #attractions)>div.mt-8{order:3}
 #events>div:last-child::before{width:3px!important;background:rgba(201,163,91,.38)!important}
 #events>div:last-child>div::before{width:15px!important;height:15px!important;box-shadow:0 0 0 2px var(--ivory),0 2px 8px rgba(51,38,31,.28)!important}
